@@ -1,0 +1,97 @@
+
+.similar-pro h2 {
+    color: var(--second-color);
+    margin: 0;
+}
+.similar-pro > p {
+    font-size: 23px;
+    color: var(--alt-color);
+    font-family: sans-serif;
+}
+.pro-cart {
+    display: flex;
+}
+.pro-data {
+    width: 25%;
+    margin: auto 10px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 5px #ddd;
+    padding: 6px;
+}
+.pro-data-img img {
+    width: 100%;
+    border-radius: 6px;
+}
+.pro-data-logo {
+    padding-top: 8px;
+}
+.pro-data-logo img {
+    width: 57px;
+}
+.pro-name p {
+    font-weight: var(--main-font);
+    margin-top: 8px;
+}
+.pro-all {
+    display: flex;
+}
+.pro-data-price {
+    width: 77%;
+}
+.pro-real-price span {
+    color: var(--second-color);
+    font-size: 17px;
+    font-weight: var(--main-font);
+}
+.pro-real-price span small{
+    font-size: 12px;
+}
+.pro-old-price span:first-child {
+    color: var(--alt-color);
+    font-weight: var(--main-font);
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+.pro-old-price span:last-child {
+    background-color: var(--primary-color);
+    padding: 1px 12px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pro-data-rate {
+    margin: 13px 18px;
+    margin-bottom:0
+}
+.pro-data-rate svg {
+    color: #FBB90C;
+    font-size: 15px;
+}
+.pro-data-rate svg:last-child {
+    color: #333;
+} 
+.pro-data-rate span {
+    margin: 13px;
+    display: inline-block;
+    margin-top: 4px;
+    font-size: 14px;
+    font-weight: var(--main-font);
+}
+.pro-data-pikup {
+    margin: 10px 19px;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pro-data-fromto {
+    display: flex;
+    margin: 10px 19px;
+    margin-right: 0;
+    height: 18px;
+    margin-top: 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+.pro-data-fromto p {
+    margin-right: 6px;
+}

@@ -1,0 +1,119 @@
+.footer {
+    background-color: #3C3C3B;
+    padding: 15px 1px;
+    margin-top: 15px;
+}
+.footer .container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+.footer .container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #4e4e4e;
+}
+.desc-footer {
+    width: 50%;
+    color: #BBB;
+}
+.desc-footer h2 {
+    font-size: 35px;
+    margin: 13px auto;
+    font-family: fantasy;
+    color: var(--primary-color);
+}
+.desc-footer p {
+    font-size: 14px;
+    font-weight: var(--main-font);
+    padding-right: 32px;
+}
+.subs-footer {
+    width: 50%;
+    padding-left: 74px;
+    position: relative;
+}
+.subs-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -15px;
+    height: 93%;
+    width: 1px;
+    background-color: #4e4e4e;
+}
+.subs-footer > p {
+    color: #BBB;
+    font-size: 18px;
+    font-weight: var(--main-font);
+}
+.search-footer {
+    position: relative;
+}
+.search-footer input {
+    width: 100%;
+    padding: 6px 10px;
+    border-radius: 34px;
+}
+.search-footer > div {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    background-color: var(--primary-color);
+    padding: 8px 10px;
+    border-radius: 34px;
+    width: 95px;
+    font-size: 11px;
+    cursor: pointer;
+}
+.search-footer > div svg {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.soical {
+    margin: 24px auto;
+    display: flex;
+}
+.sitmap {
+    width: 50%;
+    color: #c0c0c0;
+    font-weight: var(--main-font);
+}
+.sitmap ul {
+    line-height: 2;
+    font-size: 14px;
+}
+.sitmap li {
+    cursor: pointer;
+}
+.sitmap li:hover {
+    text-decoration: underline;
+}
+.soical-connect {
+    width: 50%;
+    text-align: right;
+    position: relative;
+    color: #c0c0c0;
+    font-weight: var(--main-font);
+}
+.soical-connect::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #4e4e4e;   
+}
+.soical-connect img {
+    width: 23px;
+    margin-right: 10px;
+}
+.soical-connect ul {
+    line-height: 2.3;
+}

@@ -1,0 +1,159 @@
+.product {
+    padding: 40px 10px;
+}
+.logo-adidas-pro {
+    margin-bottom: 20px;
+}
+.logo-adidas-pro img {
+    width: 65px;
+}
+.pro-description p {
+    font-weight: var(--main-font);
+}
+.pro-gender p {
+    color: #999;
+    font-weight: var(--main-font);
+}
+.pro-rate span:first-child {
+    margin: 10px;
+    font-weight: var(--main-font);
+}
+.pro-rate span:last-child {
+    color: var(--alt-color);
+    font-weight: var(--main-font);
+}
+.pro-rate svg {
+    color: #FBB90C;
+    font-size: 19px;
+}
+.pro-rate p svg:last-child {
+    color: #333;
+} 
+.pro-rate p  span:first-of-type {
+    margin: 10px 20px;
+    font-weight: var(--main-font);
+}
+.pro-price {
+    margin-bottom: 23px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(224, 224, 224); 
+}
+.pro-price .new-price {
+    color: var(--second-color);
+    font-weight: var(--main-font);
+    font-size: 28px;
+}
+.pro-price .new-price small {
+    font-size: 14px;
+}
+.pro-price .old-price {
+    color: #999;
+    font-size: 12px;
+    text-decoration: line-through;
+    font-weight: var(--main-font);
+    margin: 10px;
+}
+.pro-price .offer {
+    background-color: var(--primary-color);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 11px;
+    border-radius: 4px;
+}
+.pro-size, .pro-color, .pro-quantity {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(224, 224, 224); 
+    margin-bottom: 23px;
+}
+
+.pro-size p {
+    font-weight: var(--main-font);
+    margin: 0
+}
+.pro-size span {
+    width: 56px;
+    font-size: 13px;
+    color: var(--second-color);
+    border: 1px solid #f1e1e1;
+    border-radius: 50%;
+    height: 56px;
+    display: inline-block;
+    text-align: center;
+    line-height: 4;
+    cursor: pointer;
+    margin: auto 6px;
+    transition: all .3s ease-in-out;
+}
+.pro-size span:hover {
+    background-color: #e5e5e5;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+.pro-color p, .pro-quantity p {
+    font-weight: var(--main-font);
+}
+.pro-color img {
+    margin: 0 6px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pro-color img.active {
+    border: 1px solid var(--second-color);
+}
+.pro-quantity {
+    border: none;
+}
+.pro-quantity .inc-dec {
+    display: flex;
+    width: 209px;
+    background-color: #ededed;
+    border-radius: 20px;
+    padding: 3px;
+    border: 1px solid #d4d4d4;
+}
+.pro-quantity .dec, .pro-quantity .inc {
+    width: 15%;
+    height: 30px;
+    line-height: 26px;
+    text-align: center;
+    background-color: var(--primary-color);
+    border-radius: 56px;
+    padding: 0px 0px;
+    font-size: 21px;
+    cursor: pointer;
+}
+.pro-quantity .value {
+    width: 70%;
+    text-align: center;
+}
+.pro-purchase {
+    display: flex;
+}
+.pro-purchase div {
+    width: 45%;
+    margin: auto 20px;
+    border-radius: 27px;
+    text-align: center;
+    padding: 10px;
+    font-weight: var(--main-font);
+    cursor: pointer;
+}
+.pro-purchase .addtocart {
+    background-color: var(--second-color);
+    color: #FFF;
+}
+.pro-purchase .pickup {
+    background-color: var(--primary-color);
+}
+
+/* Product Image */
+.sub-img {
+    margin: 23px auto;
+}
+.sub-img img {
+    width: 62px;
+    height: 62px;
+    margin: auto 26px;
+}
