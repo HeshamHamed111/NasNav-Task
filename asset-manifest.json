@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/NasNav-Task/static/css/main.e5335361.css",
-    "main.js": "/NasNav-Task/static/js/main.f4986384.js",
+    "main.js": "/NasNav-Task/static/js/main.ff9afcef.js",
     "static/js/787.cfd8f164.chunk.js": "/NasNav-Task/static/js/787.cfd8f164.chunk.js",
     "index.html": "/NasNav-Task/index.html",
     "main.e5335361.css.map": "/NasNav-Task/static/css/main.e5335361.css.map",
-    "main.f4986384.js.map": "/NasNav-Task/static/js/main.f4986384.js.map",
+    "main.ff9afcef.js.map": "/NasNav-Task/static/js/main.ff9afcef.js.map",
     "787.cfd8f164.chunk.js.map": "/NasNav-Task/static/js/787.cfd8f164.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5335361.css",
-    "static/js/main.f4986384.js"
+    "static/js/main.ff9afcef.js"
   ]
 }
