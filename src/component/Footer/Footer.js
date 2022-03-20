@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import data from '../../data.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPaperPlane, faTwitter } from '@fortawesome/free-solid-svg-icons';
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import './footer.css';
 
 class Footer extends Component {

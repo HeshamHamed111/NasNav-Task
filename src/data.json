@@ -1,7 +1,7 @@
 [
     {
         "id": "5",
-        "urlimage": "demmimg/img1.jpeg",
+        "urlimage": "./demmimg/img1.jpeg",
         "name": "T-shirt Black",
         "oldPrice": "100,999",
         "newPrice": "80,999",
@@ -13,7 +13,7 @@
     },
     {
         "id": "7",
-        "urlimage": "demmimg/img2.jpeg",
+        "urlimage": "./demmimg/img2.jpeg",
         "name": "T-shirt White",
         "oldPrice": "100,999",
         "newPrice": "80,999",
@@ -25,7 +25,7 @@
     },
     {
         "id": "9",
-        "urlimage": "demmimg/img3.jpeg",
+        "urlimage": "./demmimg/img3.jpeg",
         "name": "T-shirt Black",
         "oldPrice": "100,999",
         "newPrice": "80,999",
@@ -37,7 +37,7 @@
     },
     {
         "id": "44",
-        "urlimage": "demmimg/img4.jpeg",
+        "urlimage": "./demmimg/img4.jpeg",
         "name": "T-shirt Black",
         "oldPrice": "100,999",
         "newPrice": "80,999",

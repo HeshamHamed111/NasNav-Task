@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 import Home from './Home';
 import MenuCart from './component/MenuCart/MenuCart';
@@ -14,25 +14,25 @@ class App extends Component {
     name: '', 
     quantity: 0, 
     price: 0, 
+    toggle: false,
   }
   handlerState = (imgUrl, name, quantity, price) => {
-    this.setState({imgState: imgUrl, name: name, quantity: quantity, price: price})
+    this.setState({...this.state, imgState: imgUrl, name: name, quantity: quantity, price: price})
   }
   handlerImageState = (imgUrl) => {
     this.setState({...this.state, imgState: imgUrl})
   }
+  handleToggle = () => {
+    this.setState({...this.state, toggle: !this.state.toggle})
+  }
     render() {
         return (
-          <Router>
+        
           <div className="App">
-          
-          <Routes>
-              <Route path="/" element={<Home handelState={this.handlerState} handelImage={this.handlerImageState} />} />
-              <Route path="/MenuCart" element={<div><Home handelState={this.handlerState} handelImage={this.handlerImageState} /><MenuCart statePro={this.state} /> </div> } />
-              </Routes>
-
+          <Home handelState={this.handlerState} handelImage={this.handlerImageState} handleToggle = {this.handleToggle} />
+          <MenuCart statePro={this.state} handleToggle = {this.handleToggle}/> 
           </div>
-          </Router>
+
         )
     } 
 

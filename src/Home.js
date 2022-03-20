@@ -25,7 +25,7 @@ class Home extends Component {
         return (
             <div className="home">
             <NavTop />
-            <MainNav counter={this.state.counter} />
+            <MainNav counter={this.state.counter} handleToggle={this.props.handleToggle}/>
             <Header />
             <Loadmenu />
             <Container>
