@@ -27,7 +27,7 @@ class App extends Component {
           <div className="App">
           
           <Routes>
-              <Route exact={false} path="/" element={<Home handelState={this.handlerState} handelImage={this.handlerImageState} />} />
+              <Route path="/" element={<Home handelState={this.handlerState} handelImage={this.handlerImageState} />} />
               <Route path="/MenuCart" element={<div><Home handelState={this.handlerState} handelImage={this.handlerImageState} /><MenuCart statePro={this.state} /> </div> } />
               </Routes>
 
