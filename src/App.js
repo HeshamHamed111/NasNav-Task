@@ -3,7 +3,6 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 import Home from './Home';
 import MenuCart from './component/MenuCart/MenuCart';
-import NotFound from './NotFound';
 
 import './App.css';
 
@@ -30,7 +29,6 @@ class App extends Component {
           <Routes>
               <Route exact={false} path="/" element={<Home handelState={this.handlerState} handelImage={this.handlerImageState} />} />
               <Route path="/MenuCart" element={<div><Home handelState={this.handlerState} handelImage={this.handlerImageState} /><MenuCart statePro={this.state} /> </div> } />
-              <Route path="*" element={<NotFound />} />
               </Routes>
 
           </div>
